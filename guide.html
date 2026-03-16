@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT-путеводитель - Библиотека КЧР</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .code-block {
+            background: #1e1e1e;
+            color: #FFD700;
+            padding: 1rem;
+            border-radius: 5px;
+            font-family: monospace;
+            margin: 1rem 0;
+            border-left: 5px solid #D40000;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/horse-logo.png" alt="Логотип библиотеки" class="header-logo" onerror="this.style.display='none'">
+            <div class="header-text">
+                <h1>IT-путеводитель</h1>
+                <p>Литература по информационным технологиям в фондах библиотеки</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О нас и контакты</a></li>
+            <li><a href="rarities.html">Цифровые коллекции</a></li>
+            <li><a href="guide.html">IT-путеводитель</a></li>
+            <li><a href="newbooks.html">Книжные новинки</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Техническая литература в фондах</h2>
+            <p>По состоянию на <strong>15 марта 2026 года</strong> в библиотеке представлены:</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Направление</th>
+                        <th>Количество книг</th>
+                        <th>Новые поступления (2025-2026)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Программирование (Java, Python, C++)</td>
+                        <td>210</td>
+                        <td style="color: green;">+35 книг</td>
+                    </tr>
+                    <tr>
+                        <td>Веб-технологии и дизайн</td>
+                        <td>89</td>
+                        <td style="color: green;">+15 книг</td>
+                    </tr>
+                    <tr>
+                        <td>Базы данных и информационные системы</td>
+                        <td>56</td>
+                        <td style="color: green;">+8 книг</td>
+                    </tr>
+                    <tr>
+                        <td>Компьютерные сети и безопасность</td>
+                        <td>43</td>
+                        <td style="color: green;">+6 книг</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Рекомендации по литературе</h2>
+            
+            <div class="card">
+                <h3>☕ Книги по Java (есть в фонде)</h3>
+                <ul style="margin-left: 1.5rem; line-height: 2;">
+                    <li><strong>"Java. Полное руководство"</strong> - Герберт Шилдт (13-е издание, 2025)</li>
+                    <li><strong>"Современная Java в действии"</strong> - Рауль-Габриэль Урма (2024)</li>
+                    <li><strong>"Java. Эффективное программирование"</strong> - Джошуа Блох (4-е издание, 2025)</li>
+                </ul>
+                <p class="date">Все книги доступны в читальном зале (2 этаж, секция технической литературы)</p>
+            </div>
+            
+            <div class="card">
+                <h3>🌐 Веб-разработка</h3>
+                <ul style="margin-left: 1.5rem; line-height: 2;">
+                    <li><strong>"HTML и CSS. Разработка и дизайн"</strong> - Джон Дакетт (2025)</li>
+                    <li><strong>"JavaScript для начинающих"</strong> - Дэвид Флэнаган (2026)</li>
+                    <li><strong>"Современный веб-дизайн"</strong> - И.В. Петров (2025)</li>
+                </ul>
+            </div>
+            
+            <div class="code-block">
+                <pre>// Небольшой пример кода для вдохновения
+public class Library {
+    public static void main(String[] args) {
+        System.out.println("Добро пожаловать в библиотеку КЧР!");
+        System.out.println("Дата: 15 марта 2026");
+        System.out.println("Приходите за новыми знаниями!");
+    }
+}</pre>
+            </div>
+        </section>
+
+        <section>
+            <h2>Где искать книги в библиотеке</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                <div>
+                    <h3>📍 Навигация по залам:</h3>
+                    <ul style="list-style: none;">
+                        <li>🔹 <strong>2 этаж, левое крыло</strong> - Техническая литература</li>
+                        <li>🔹 <strong>2 этаж, правое крыло</strong> - Компьютерная литература</li>
+                        <li>🔹 <strong>1 этаж</strong> - Новые поступления (стенд "IT-новинки")</li>
+                    </ul>
+                </div>
+                <div style="background: #f5f5f5; padding: 1rem; border-radius: 5px;">
+                    <p style="font-weight: bold; color: #D40000;">📌 Совет библиотекаря:</p>
+                    <p>"Для поиска книг по программированию обращайтесь в раздел 004 (информатика). Самые новые книги - на отдельном стеллаже у окна на 2 этаже."</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Электронные ресурсы</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>📑 Национальная электронная библиотека</h3>
+                    <p>Доступ к НЭБ в читальном зале</p>
+                </div>
+                <div class="card">
+                    <h3>🔍 Электронный каталог</h3>
+                    <p>Поиск книг по фонду библиотеки</p>
+                </div>
+                <div class="card">
+                    <h3>📧 Консультации</h3>
+                    <p>Помощь в подборе литературы по IT-тематике</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2026 Государственная национальная библиотека КЧР им. Х. Байрамуковой</p>
+            <p id="current-date"></p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
